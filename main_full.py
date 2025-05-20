@@ -53,7 +53,7 @@ fkit.plotter.preview_section(section2, show_tag=True)
 phi_target = 0.00125
 
 # moment-curvature analysis
-MK_results = section1.run_moment_curvature(phi_target = phi_target, P=-180)
+MK_results = section1.run_moment_curvature(phi_target = phi_target, P=-180*10)
 
 # calculate cracked moment of inertia at each load step
 Icr_results = section1.calculate_Icr(Es=29000, Ec=3605)
